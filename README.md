@@ -1,1 +1,1 @@
-discordのチャットからtrelloへカードをつくるbot
+#discordのチャットからtrelloへカードをつくるbot
