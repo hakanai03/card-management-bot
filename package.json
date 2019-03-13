@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/hakanai03/card-management-bot.git",
   "author": "Shogo Ishimaru <hakanai.blog@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
 }
