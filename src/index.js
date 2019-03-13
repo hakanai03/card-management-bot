@@ -1,4 +1,5 @@
 const Discord = require("discord.js")
+require("dotenv").config()
 
 if(!process.env.DISCORD_USER_TOKEN) throw Error("Undefined discord user token")
 
