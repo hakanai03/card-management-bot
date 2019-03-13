@@ -1,6 +1,12 @@
 # discordのチャットからtrelloへカードをつくるbot
 
-# つかいかた
+## じゅんび
+
+```bash
+yarn install
+```
+
+## つかいかた
 
 ```bash
 env DISCORD_USER_TOKEN="ここにbotのトークンをいれる" node src/index.js
