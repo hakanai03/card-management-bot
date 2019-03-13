@@ -6,7 +6,8 @@
   "author": "Shogo Ishimaru <hakanai.blog@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0"
   },
   "devDependencies": {
     "eslint": "^5.15.1"
