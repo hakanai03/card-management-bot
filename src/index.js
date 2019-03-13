@@ -7,7 +7,12 @@ const token = process.env.DISCORD_USER_TOKEN
 
 const onMessage = async(message) => {
   if(message.author.bot)return
-  const res = await message.reply(message.content)
+
+  const messageArray = message.content.split(" ")
+  if(messageArray[0] !== "タスク") return
+  if(!messageArray[1]) return
+
+  const res = await message.reply(`タスク「${messageArray[1]}」を登録したよ`)
   console.log(`Sent message: ${res}`)
   return
 }
