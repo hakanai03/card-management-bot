@@ -1,0 +1,47 @@
+extends:
+- eslint:recommended
+- plugin:react/recommended
+parserOptions:
+  sourceType: module
+  ecmaVersion: 2017
+  ecmaFeatures:
+    jsx: true
+env:
+  browser: true
+  es6: true
+  node: true
+  commonjs: true
+globals:
+  "$": true
+rules:
+  arrow-spacing: error
+  generator-star-spacing: error
+  yield-star-spacing: error
+  no-duplicate-imports: error
+  no-useless-computed-key: error
+  no-useless-constructor: error
+  no-useless-rename: error
+  no-var: error
+  no-cond-assign: error
+  object-shorthand: error
+  prefer-const: error
+  prefer-rest-params: error
+  prefer-spread: error
+  prefer-template: error
+  rest-spread-spacing: error
+  template-curly-spacing: error
+  no-unmodified-loop-condition: error
+  indent:
+  - error
+  - 2
+  semi:
+  - error
+  - never
+  - beforeStatementContinuationChars: never
+  no-unexpected-multiline: error
+  eqeqeq: error
+  react/jsx-uses-react: error
+  react/jsx-uses-vars: error
+  no-console: warn
+  no-debugger: warn
+  prefer-arrow-callback: warn
