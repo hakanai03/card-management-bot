@@ -8,7 +8,7 @@ const token = process.env.DISCORD_USER_TOKEN
 const onMessage = async(message) => {
   if(message.author.bot)return
 
-  const messageArray = message.content.split(" ")
+  const messageArray = message.content.replace(/　+/g, ' ').split(" ")
   if(messageArray[0] !== "タスク") return
   if(!messageArray[1]) return
 
