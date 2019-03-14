@@ -32,4 +32,5 @@ const onMessage = async(message) => {
 
 client.on("ready", () => console.log("listen"))
 client.on("message", onMessage)
+client.on('error', console.error)
 client.login(token)
